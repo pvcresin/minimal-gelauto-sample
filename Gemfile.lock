@@ -1,0 +1,50 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.3)
+    diff-lcs (1.6.1)
+    gelauto (2.1.0)
+      gli (~> 2.0)
+      parser (~> 2.6)
+    gli (2.22.2)
+      ostruct
+    ostruct (0.6.1)
+    parser (2.7.2.0)
+      ast (~> 2.4.1)
+    racc (1.8.1)
+    rspec (3.13.0)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.3)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.3)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-support (3.13.2)
+    sorbet (0.5.11971)
+      sorbet-static (= 0.5.11971)
+    sorbet-runtime (0.5.11971)
+    sorbet-static (0.5.11971-aarch64-linux)
+    sorbet-static (0.5.11971-universal-darwin)
+    sorbet-static (0.5.11971-x86_64-linux)
+    sorbet-static-and-runtime (0.5.11971)
+      sorbet (= 0.5.11971)
+      sorbet-runtime (= 0.5.11971)
+
+PLATFORMS
+  aarch64-linux
+  universal-darwin
+  x86_64-linux
+
+DEPENDENCIES
+  gelauto
+  racc
+  rspec
+  sorbet-static-and-runtime
+
+BUNDLED WITH
+   2.5.21
