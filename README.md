@@ -8,3 +8,5 @@
   - Runs the test suite
 - `bundle exec gelauto run --annotate $(find . -name '*.rb') -- bundle exec rspec spec/`
   - Annotates methods with type
+
+Article: https://zenn.dev/pvcresin/articles/3f541187aefa39
