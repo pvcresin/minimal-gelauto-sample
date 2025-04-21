@@ -1,5 +1,7 @@
 # Minimal gelauto Sample
 
+https://github.com/camertron/gelauto
+
 - `bundle install`
   - Installs all required dependencies
 - `bundle exec srb tc`
